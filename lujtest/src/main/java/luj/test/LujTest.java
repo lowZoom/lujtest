@@ -5,6 +5,7 @@ import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestExecutionListeners;
 
+@Deprecated
 @RunWith(LujRunner.class)
 @TestExecutionListeners // 去除Spring默认执行监听器
 @ContextConfiguration(

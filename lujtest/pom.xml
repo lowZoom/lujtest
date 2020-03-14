@@ -28,33 +28,30 @@
       <artifactId>lujava</artifactId>
       <version>0.1-SNAPSHOT</version>
     </dependency>
-
     <!-- https://mvnrepository.com/artifact/junit/junit -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>${luj.junit.version}</version>
+      <version>4.13</version>
     </dependency>
-
     <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
-      <version>${luj.assertj.version}</version>
+      <version>3.14.0</version>
     </dependency>
-
     <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
       <version>2.18.3</version>
     </dependency>
-
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
       <version>${luj.spring.version}</version>
     </dependency>
+
   </dependencies>
 </project>

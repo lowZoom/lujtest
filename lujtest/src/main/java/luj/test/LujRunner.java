@@ -8,6 +8,7 @@ import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.InitializationError;
 import org.junit.runners.model.Statement;
 
+@Deprecated
 public class LujRunner extends BlockJUnit4ClassRunner {
 
   public LujRunner(Class<?> klass) throws InitializationError {
